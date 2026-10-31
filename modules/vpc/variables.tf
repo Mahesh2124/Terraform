@@ -24,7 +24,7 @@ variable "public_subnets_config" {
   }))
   description = "Configuration map for multiple public subnets"
   default = {
-   "us-east-1b" = {
+   "us-east-1a" = {
       "cidr"              = "10.0.1.0/24"
       "availability_zone" = "us-east-1a"
       "instance_count" = 1
